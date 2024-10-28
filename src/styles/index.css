@@ -1,12 +1,80 @@
+body {
+    background: url(https://imgs.search.brave.com/OasvpsQkMtG257336Rs2YS1PL8m82kEFasOM9cKVdPY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdG9yLWdyYXRp/cy9jYWxsZS1tb2Rl/cm5hLWNpdWRhZC1j/cnVjZS1wZWF0b25h/bF8xMDc3OTEtMjYw/ODUuanBnP3NlbXQ9/YWlzX2h5YnJpZA);
+    background-repeat: no-repeat;
+    background-size: cover;
 
-/* 
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.caja {
+    width: 8rem;
+    background: black;
+    margin: 3rem 64rem 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.luz {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.rojo {
+    background: rgb(66, 46, 46);
+}
 
-*/
+.amarillo {
+    background: rgb(67, 67, 45);
+}
+
+.verde {
+    background: rgb(39, 55, 39);
+}
+
+.violeta {
+    background: rgb(69, 44, 69);
+}
+
+.purple {
+    background: purple;
+    box-shadow: 0px 0px 40px 20px rgb(248, 5, 183);
+}
+
+.red {
+    background: red;
+    box-shadow: 0px 0px 40px 20px rgb(209, 11, 11);
+}
+
+.yellow {
+    background: yellow;
+    box-shadow: 0px 0px 40px 20px rgb(237, 253, 0);
+}
+
+
+.green {
+    background: rgb(55, 229, 55);
+    box-shadow: 0px 0px 40px 20px rgb(59, 255, 10);
+}
+
+.cyclesBtn {
+    margin-top: 4rem !important;
+    margin: auto;
+}
+
+.newLightBtn {
+    margin-top: 1rem !important;
+    margin: auto;
+    background: purple;
+}
+
+.newLightBtn:hover {
+    background: rgb(60, 17, 60);
+    color: white;
+}
